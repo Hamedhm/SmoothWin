@@ -1,0 +1,12 @@
+export(
+  SmoothWin    ,
+  scale21      ,
+  penCPD       ,
+  expWeight
+)
+
+importFrom("graphics", "abline", "lines", "points")
+importFrom("stats", "AIC", "BIC", "coef", "lm", "plogis", "resid","sd")
+importFrom("graphics", "legend")
+importFrom("utils", "combn")
+importFrom("graphics", "axis", "text")
